@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+/*
+p{
+    color:blue;
+    text-decoration:underline
+}
+*/
+
+strong{
+    color:green;
+}
+
+.front{
+    color: red;
+}
+
+#end{
+    font-weight: bold;
+}
+
+a:link{
+    color:darkblue;
+}
+
+
+a:visited{
+    color:darkgray;
+}
+a:hover{
+    color:orange;
+}
+
+a:active{
+    color:red;
+}
