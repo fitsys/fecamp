@@ -1,53 +1,62 @@
-<!DOCTYPE HTML>
-<HTML>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>회원가입 viewport</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0, user-scalable=yes"
+    <title>0824_Tab menu</title>
+    <link rel="stylesheet" href="0824.css">
 </head>
-<h1>회원가입</h1>
-<form method="post" action="a.html">
-    
-<fieldset>
-    <legend>필수 입력</legend>
-    <label>Email <input type="email" size="20" name="email"> <br></label>
-    <label for="password">Password</label>
-        <input type="password" id="password"> 
-        <input type="password" name="password">
-</fieldset>
-<br><br>
-<fieldset>
-    <legend>선택 입력</legend>
-    <p>
-    전화번호 입력
-    <select name="phone1">
-        <option value="010">010</option>
-        <option value="011">011</option>
-        <option value="070">070</option>
-    </select>
-    <input type="text" name="phone2" size="5" maxlength="4"> - 
-    <input type="text" name="phone3" size="5" maxlength="4">
-    </p>
-    
-    <p>
-    생년월일 <input type="date" name="birth" size="9" maxlength="8">
-    
-    </p>
-</fieldset>    
+<body>
+<!-- TAB MENU1 -->
+<ul class="tab_menu1">
+    <li class="selected1"><a href=#detail_info>상세정보</a></li>
+    <li><a href=#>구매평 (0)</a></li>
+    <li><a href=#> Q&amp;A (0)</a></li>
+    <li><a href=#>반품/교환정보</a></li>
+    <li class="btn_top"><a href="#">TOP</a></li>
+</ul>
 
+           <br><br>
+           
+<!-- TAB MENU2 -->
+<ul class="tab_menu2">
+    <li class="selected2"><a href=#>상품 설명</a></li>
+    <li><a href=#>상품 문의</a></li>
+    <li><a href=#>쉬운 반품</a></li>
+    <li><a href=#>상품 필수 표기정보</a></li>
+</ul>
 
-<button type="submit">가입</button>
-<button type="reset">취소</button>
-    
-</form>
-     
-<p>
+           <br><br>           
+           
 
-        
-</p>    
-    
-    
-<div>111</div>    
-<div>222</div>
-    
-</HTML>
+<!-- TAB MENU3 -->
+<ul class="tab_menu3">
+    <li class="selected3"><a href=#compare>가격비교<span> 104</span></a></li>
+    <li><a href=#inform>상세정보</a></li>
+    <li class="end3"><a href=#review>사용자 리뷰<span> 30</span></a></li>
+</ul>
+           
+           <br><br>
+           
+<!-- TAB MENU4 -->           
+<ul class="tab_menu4">
+    <li class="selected4"><a href="#">상품설명</a></li>
+    <li><a href="#">상품문의 <span>(73)</span></a></li>
+    <li><a href="#">환불교환/상품고시</a></li>    
+</ul>
+           
+         <br><br>
+           
+           
+<!-- TAB MENU5 -->           
+<ul class="tab_menu5">
+    <li class="selected5"><a href="#">주요정보</a></li>
+    <li><a href="#">배우/제작진</a></li>
+    <li><a href="#">포토</a></li>
+    <li><a href="#">동영상</a></li>
+    <li><a href="#">평점/리뷰</a></li>
+    <li><a href="#">명대사/연관영화</a></li>    
+</ul>
+                      
+            
+</body>
+</html>
