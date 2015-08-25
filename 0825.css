@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+
+
+.tab_menu5{
+    width: 832px;
+    height: 51px;
+    box-sizing : border-box;
+    border-top: 2px solid #1e1f25
+}
+
+.tab_menu5:after{
+    clear: both;
+    display: block;
+    content: '';
+}
+
+
+/*
+ul은 class를 뒤에 붙여쓰는?
+*/
+ul.tab_menu5 {
+    background-color: #ffffff;
+    border: 1px #cccccc solid;
+    border-right: none;
+    border-left: none;
+    margin: 0px;
+    padding-left: 0px;
+}
+/*
+li.tab_menu5는 왜 안되는가?
+*/
+li{
+    float: left;
+    list-style-type: none;
+}
+
+
+
+.tab_menu5 a {
+    color: #808080;
+    width: 120px;
+    font-size: 15px;
+    height: 49px;
+    display : block;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 0px 0px 0px;
+/*    border: 1px #414b58 solid;*/
+    border-left: none;
+    border-top: none;
+    box-sizing : border-box;    
+}
+
+
+.tab_menu5 a:hover {
+    color: #ffffff;
+    background-color: #808080; 
+}
+
+.selected5 a{
+    color: #ffffff;
+    background-color: #808080; 
+}
