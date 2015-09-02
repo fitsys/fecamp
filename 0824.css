@@ -1,0 +1,350 @@
+@charset "UTF-8";
+
+
+/* ------------- TAB_MENU 1 ------------- */
+.tab_menu1{
+    height: 30px;
+    width: 750px;
+    background-color: #8c8c8c;
+    border: 1px #6f6f6f solid;
+    border-right: none;
+    box-sizing: border-box;
+}
+
+.tab_menu1:after{
+    clear: both;
+    display: block;
+    content: '';
+}
+
+/*
+질문 : ul은 class를 뒤에 붙여쓰는?
+*/
+ul.tab_menu1{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+
+        
+}
+
+/*
+질문 : li에도 class명을 부여하려면?
+*/
+li{
+    float: left;
+}
+
+
+
+.tab_menu1 a {
+    height: 29px; 
+    display : block;
+    text-align: center;
+    padding: 8px 20px 0px 20px;
+    font-size: 12px;
+    color: white;
+    text-decoration: none;    
+    box-sizing: border-box;  
+    border-right: 1px solid #6f6f6f;
+
+    border-left : none;  
+    
+    
+}
+
+.tab_menu1 a:hover{
+    font-weight: bold;
+    background-color: dimgray;
+}
+
+
+.selected1 a{
+    color: white;
+    font-weight: bold;
+    background-color: dimgray;
+}
+
+.btn_top{
+/*    width: 10px;*/ 
+    float: right;
+    margin-right: 0px;
+    background-color: #808081;
+    border-left: 1px solid #6f6f6f;
+}
+
+
+/* ------------- TAB_MENU 2 ------------- */
+.tab_menu2{
+    height: px;
+    width: 750px;
+    background-color: #ffffff;
+    border-bottom: 2px #555555 solid;
+    box-sizing: border-box;
+}
+
+.tab_menu2:after{
+    clear: both;
+    display: block;
+    content: '';
+}
+
+
+ul.tab_menu2{
+    list-style-type: none;
+    border: 1px 0px 0px 0px #555555 solid;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+
+li{
+    float: left;   
+}
+
+
+
+.tab_menu2 a {
+    height: 58px; 
+    display : block;
+    text-align: center;
+    padding: 20px 40px 0px 40px;
+    font-size: 15px;
+    color: #555555;
+    text-decoration: none;    
+    box-sizing: border-box;  
+    border: 1px solid #cccccc;
+    border-left: none;
+    border-bottom: none;
+}
+
+.tab_menu2 a:hover{
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #555555;
+    border: #555555
+}
+
+
+.selected2 a{
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #555555;
+    border: #555555
+}
+
+
+
+
+
+/* ------------- TAB_MENU 3 ------------- */
+.tab_menu3 {
+    height : 50px;
+    width : 939px;
+    background-color : #f1f2f4;
+    border : 1px #dedfe0 solid;
+    border-top : 2px solid #0a1f3d ;
+    border-left : none;
+    box-sizing : border-box;
+}
+
+
+.tab_menu3:after{
+    clear: both;
+    display: block;
+    content: '';
+}
+
+ul.tab_menu3 {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+li{
+    float: left;
+}
+
+.end3 {
+    border-right: 1px #dedfe0 solid;
+}
+
+
+.tab_menu3 a { 
+    color : #000;
+    font-family : sans-serif;
+    font-size : 14px ;
+    font-weight : bold;
+    text-decoration : none;
+    display : block;
+    text-align : center ;
+    padding : 18px 0px 17px;
+    line-height : 13px;
+    width : 156px;
+    height : 48px;
+    border-left : 1px #dedfe0 solid;
+    border-bottom: 1px #dedfe0 solid;
+    box-sizing : border-box;
+}
+
+
+.tab_menu3 span {
+    color : #666666 ;
+    font-size : 12px ;
+    vertical-align : middle;
+}
+
+
+.tab_menu3 a:hover{
+    background-color : #102c52;
+    color : #fff;
+    border-color : #0a1f3d;
+}
+
+.tab_menu3 a:hover span{
+    color : #fc554e;
+}
+
+
+.selected3 a{
+    background-color : #102c52;
+    color : #fff;
+    border-color : #0a1f3d;
+}
+
+.selected3 span{
+   color : #fc554e;
+}
+
+
+
+
+/* ------------- TAB_MENU 4 ------------- */
+
+.tab_menu4{
+    width: 1000px;
+    border-top: 2px #2b3748 solid;
+    background-color: #505a68;
+    box-sizing : border-box;
+}
+
+.tab_menu4:after{
+    clear: both;
+    display: block;
+    content: '';
+}
+
+
+ul.tab_menu4{
+    border-left:1px #cccccc solid;
+    margin: 0px;
+    padding-left: 0px;
+}
+
+li{
+    float: left;
+    list-style-type: none;
+}
+
+
+.tab_menu4 a {
+    color: #ffffff;
+    height: 58px;
+    display : block;
+    text-align: center;
+    text-decoration: none;
+    padding: 17px 40px 0px 40px;
+    border: 1px #2b3748 solid;
+    border-bottom: none;
+    border-left: none;
+    box-sizing : border-box;    
+}
+
+
+.selected4 a {
+    color: #2b3748;
+    background-color: #ffffff; 
+}
+
+.tab_menu4 span{
+    color: #ffffff;
+}
+
+.tab_menu4 a:hover {
+    color: #2b3748;
+    background-color: #ffffff; 
+}
+
+
+.tab_menu4 a:hover span{
+    color: #2b3748;
+}
+
+
+
+
+/* ------------- TAB_MENU 5 ------------- */
+.tab_menu5{
+    width: 832px;
+    height: 45px;
+    box-sizing : border-box;
+    border-top: 2px solid #1e1f25
+}
+
+.tab_menu5:after{
+    clear: both;
+    display: block;
+    content: '';
+}
+
+
+ul.tab_menu5 {
+    background-color: #ffffff;
+/*    border: 1px #cccccc solid;*/
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px #cccccc solid;
+    margin: 0px;
+    padding-left: 0px;
+}
+
+S
+
+li{
+    float: left;
+    list-style-type: none;
+}
+
+.tab_menu5 a {
+    color: #808080;
+    width: 120px;
+    font-size: 15px;
+    height: 43px;
+    display : block;
+    text-align: center;
+    text-decoration: none;
+    padding: 13px 0px 0px 0px;
+/*    border: 1px #414b58 solid;*/
+    border-left: none;
+    border-top: none;
+    box-sizing : border-box;    
+        background-image: url('http://fitsys.github.io/fecamp/tb_bg.jpg');
+    background-repeat: no-repeat;
+/*    background-attachment: fixed;*/
+    background-position: left;
+}
+
+
+.tab_menu5 a:hover {
+    color: #ffffff;
+    background-color: #808080;    
+}
+/*
+질문: a:hover 일때 background-image가 보여서 어색한데 BG위로 다 덮으면서 색을 채울 순 없나요?
+*/
+
+
+.selected5 a{
+    color: #ffffff;
+    background-color: #808080; 
+}
