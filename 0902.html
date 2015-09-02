@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0">
@@ -7,21 +6,21 @@
 </head>
 <style>
     body{margin:0;}
-    
+
     .box{
         width: 320px;
         height: 100px;
-        background-color: #999;
-        
+        background-color: #000;
+
     }
-    
     .half{
         width: 160px;
     }
-    </style>
-<body>
-   <div class="box">320*100</div>
-   <div class="box half">160</div>
+</style>
+<body onClick="alert(document.body.clientWidth);">
+
+<div class="box" onClick="alert(this.offsetWidth);"></div>
+<div class="box half"></div>
     
 </body>
 </html>
