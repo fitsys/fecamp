@@ -1,7 +1,89 @@
 @charset "UTF-8";
 
 
+/* ------------- TAB_MENU 3 ------------- */
+.tab_menu {
+    height : 50px;
+    width : 939px;
+    background-color : #f1f2f4;
+    border : 1px #dedfe0 solid;
+    border-top : 2px solid #0a1f3d ;
+    border-left : none;
+    box-sizing : border-box;
+}
 
+.tab_menu2{
+    height: ;
+    width: ;
+    background-color: ;
+    border: 1px #222 solid;
+    border-top :
+
+}
+
+.tab_menu:after{
+    clear: both;
+    display: block;
+    content: '';
+}
+
+ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+li{
+    float: left;
+}
+
+.end{
+    border-right: 1px #dedfe0 solid;
+}
+
+
+a { 
+    color : #000;
+    font-family : sans-serif;
+    font-size : 14px ;
+    font-weight : bold;
+    text-decoration : none;
+    display : block;
+    text-align : center ;
+    padding : 18px 0px 17px;
+    line-height : 13px;
+    width : 156px;
+    height : 48px;
+    border-left : 1px #dedfe0 solid;
+    border-bottom: 1px #dedfe0 solid;
+    box-sizing : border-box;
+}
+
+
+span {
+    color : #666666 ;
+    font-size : 12px ;
+    vertical-align : middle;
+}
+
+
+a:hover{
+    background-color : #102c52;
+    color : #fff;
+    border-color : #0a1f3d;
+}
+
+a:hover span{
+    color : #fc554e;
+}
+
+
+
+
+
+
+
+/* ------------- TAB_MENU 5 ------------- */
 .tab_menu5{
     width: 832px;
     height: 51px;
@@ -15,9 +97,8 @@
     content: '';
 }
 
-
 /*
-ul은 class를 뒤에 붙여쓰는?
+질문 : ul은 class를 뒤에 붙여쓰는?
 */
 ul.tab_menu5 {
     background-color: #ffffff;
@@ -28,14 +109,12 @@ ul.tab_menu5 {
     padding-left: 0px;
 }
 /*
-li.tab_menu5는 왜 안되는가?
+질문 : li.tab_menu5는 왜 안되는가?
 */
 li{
     float: left;
     list-style-type: none;
 }
-
-
 
 .tab_menu5 a {
     color: #808080;

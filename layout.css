@@ -1,0 +1,25 @@
+@charset utf-8;
+
+/* common */
+    body {
+        margin: 0;
+        background-color: #eee;
+    }
+
+    .wrap {
+        overflow: hidden;
+        padding: 0 10px;
+    }
+
+    nav {
+        background-color: #789;
+        color: #fff;
+    }
+
+    .content {
+        background-color: #fff;
+    }
+
+    nav, .content {
+        line-height: 100px;
+    }

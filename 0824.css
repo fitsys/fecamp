@@ -20,7 +20,7 @@
 /*
 질문 : ul은 class를 뒤에 붙여쓰는?
 */
-ul.tab_menu1{
+.tab_menu1 ul{
     list-style-type: none;
     padding: 0px;
     margin: 0px;
